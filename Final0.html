@@ -1,0 +1,102 @@
+<!DOCTYPE HTML> 
+<html>
+    <head>
+        <title>LINE PREMIUM</title>
+        <meta charset="UTF-8" />
+         <link rel="stylesheet" type="text/css" href="Final0.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+        <style>
+        a{text-decoration:none;color: #708090}
+        a:hover{text-decoration:none;color:#DAC2FA}
+        html {scroll-behavior: smooth;}
+
+        #myBtn {
+         display: none;
+         position: fixed;
+         bottom: 20px;
+         right: 30px;
+         z-index: 99;
+         font-size: 18px;
+         border: none;
+         outline: none;
+         background-color: #404d5b;
+         color: white;
+         cursor: pointer;
+         padding: 15px;
+         border-radius: 4px;}
+        #myBtn:hover {background-color: #555;}
+        </style>
+
+<body>
+    <div id="cover" class="coverflow fullsceen">
+        <a href='#'><img src='功能介紹.jpg' alt=' ' ></a>
+        <a href='#'><img src='自訂聊天室分類.jpg' alt=' ' ></a>
+        <a href='#'><img src='檔案上傳記事本.jpg' alt=' ' ></a>
+        <a href='#'><img src='投票結果公布.jpg' alt=' ' ></a>
+   </div>
+       <div class=LINE></div>
+            
+       <!--我是回到頂端的按鈕呦！-->
+       <button onclick="topFunction()" id="myBtn" title="Go to top">回到頂端</button>
+       <script>
+       //Get the button
+       var mybutton = document.getElementById("myBtn");
+       // 滑動速度是 20px 的時候按鈕會出現
+       window.onscroll = function() {scrollFunction()};
+       function scrollFunction() {
+       if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
+       {mybutton.style.display = "block";} else {mybutton.style.display = "none";}
+       }
+       // 點選按鈕時回到頂端
+       function topFunction() {
+       document.body.scrollTop = 0;
+       document.documentElement.scrollTop = 0;}
+       </script>
+
+<div id="header">功能介紹</div>
+
+<div class="flex-container">
+    <div class="item">自訂聊天室分類
+        <div class="img"><img src="自訂聊天室分類.png" alt=" " style="width: 390px;height:844px;"></div>
+        <div class="word">可自訂聊天室分類<br>客製化類別<br>提高LINE的使用效率</div>
+    </div>
+
+    <div class="item">檔案上傳記事本
+        <div class="img"><img src="檔案上傳記事本.png" alt=" " style="width: 390px;height:844px;"></div>
+        <div class="word">可將檔案上傳至記事本儲存<br><br>解決檔案過期問題</div>
+    </div>
+
+    <div class="item">投票結果公布
+        <div class="img"><img src="投票結果公布.png" alt=" " style="width: 390px;height:844px;"></div>
+        <div class="word">新增投票提醒功能<br>並自訂開票時間<br>增加投票公平性</div>
+    </div>
+</div>
+
+</body>
+
+
+<section>
+<div id="buttom">常見問題</div>
+<div id="qus">
+<b>DOSI Citizen 是什麼？</b><br>
+DOSI Citizen 是個會員計劃，任何使用 DOSI 錢包註冊的人都可以成為會員。<br>
+在註冊DOSI錢包後，您將獲得獨特的 Citizen NFT 獎勵。立即加入 DOSI Citizen 會員，享受專屬的 Citizen 福利！
+</div>
+
+<div id="qus">
+    <b>什麼是Don以及該如何收集？</b><br>
+    成為 Citizen 會員就能賺取 DOSI 會員點數「DON」，各種方式任你運用。<br>
+    每日簽到就能現賺 DON，所賺 DON 多寡將根據所持有的 Citizen NFT 數量而異。<br>
+    一旦朋友透過你提供的邀請函完成註冊或於 DOSI 中購買 NFT，即可獲贈 DON。
+</div>
+
+<div id="qus">
+    <b>我可以購買 Citizen NFT 嗎？</b><br>
+    你可以購買目前市場上販售的 Citizen NFT。<br>
+    增加 Citizen NFT 持有數量，賺更多簽到獎勵，達標即可升級，好康優惠多更多！
+</div>
+
+</section>
+
+</html>
